@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93344FB1CDA46B400CB5F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93344FA1CDA46B400CB5F94 /* AppDelegate.swift */; };
+		B93344FD1CDA46B400CB5F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93344FC1CDA46B400CB5F94 /* ViewController.swift */; };
+		B93345001CDA46B400CB5F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93344FE1CDA46B400CB5F94 /* Main.storyboard */; };
+		B93345021CDA46B400CB5F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93345011CDA46B400CB5F94 /* Assets.xcassets */; };
+		B93345051CDA46B400CB5F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93345031CDA46B400CB5F94 /* LaunchScreen.storyboard */; };
+		B93345101CDA46B400CB5F94 /* Shake_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933450F1CDA46B400CB5F94 /* Shake_LoginTests.swift */; };
+		B933451B1CDA46B500CB5F94 /* Shake_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933451A1CDA46B500CB5F94 /* Shake_LoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B933450C1CDA46B400CB5F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93344EF1CDA46B400CB5F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93344F61CDA46B400CB5F94;
+			remoteInfo = "Shake Login";
+		};
+		B93345171CDA46B500CB5F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93344EF1CDA46B400CB5F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93344F61CDA46B400CB5F94;
+			remoteInfo = "Shake Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B93344F71CDA46B400CB5F94 /* Shake Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93344FA1CDA46B400CB5F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B93344FC1CDA46B400CB5F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B93344FF1CDA46B400CB5F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B93345011CDA46B400CB5F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B93345041CDA46B400CB5F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B93345061CDA46B400CB5F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B933450B1CDA46B400CB5F94 /* Shake LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B933450F1CDA46B400CB5F94 /* Shake_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_LoginTests.swift; sourceTree = "<group>"; };
+		B93345111CDA46B400CB5F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93345161CDA46B500CB5F94 /* Shake LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B933451A1CDA46B500CB5F94 /* Shake_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_LoginUITests.swift; sourceTree = "<group>"; };
+		B933451C1CDA46B500CB5F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B93344F41CDA46B400CB5F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93345081CDA46B400CB5F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93345131CDA46B500CB5F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B93344EE1CDA46B400CB5F94 = {
+			isa = PBXGroup;
+			children = (
+				B93344F91CDA46B400CB5F94 /* Shake Login */,
+				B933450E1CDA46B400CB5F94 /* Shake LoginTests */,
+				B93345191CDA46B500CB5F94 /* Shake LoginUITests */,
+				B93344F81CDA46B400CB5F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B93344F81CDA46B400CB5F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B93344F71CDA46B400CB5F94 /* Shake Login.app */,
+				B933450B1CDA46B400CB5F94 /* Shake LoginTests.xctest */,
+				B93345161CDA46B500CB5F94 /* Shake LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B93344F91CDA46B400CB5F94 /* Shake Login */ = {
+			isa = PBXGroup;
+			children = (
+				B93344FA1CDA46B400CB5F94 /* AppDelegate.swift */,
+				B93344FC1CDA46B400CB5F94 /* ViewController.swift */,
+				B93344FE1CDA46B400CB5F94 /* Main.storyboard */,
+				B93345011CDA46B400CB5F94 /* Assets.xcassets */,
+				B93345031CDA46B400CB5F94 /* LaunchScreen.storyboard */,
+				B93345061CDA46B400CB5F94 /* Info.plist */,
+			);
+			path = "Shake Login";
+			sourceTree = "<group>";
+		};
+		B933450E1CDA46B400CB5F94 /* Shake LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				B933450F1CDA46B400CB5F94 /* Shake_LoginTests.swift */,
+				B93345111CDA46B400CB5F94 /* Info.plist */,
+			);
+			path = "Shake LoginTests";
+			sourceTree = "<group>";
+		};
+		B93345191CDA46B500CB5F94 /* Shake LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B933451A1CDA46B500CB5F94 /* Shake_LoginUITests.swift */,
+				B933451C1CDA46B500CB5F94 /* Info.plist */,
+			);
+			path = "Shake LoginUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B93344F61CDA46B400CB5F94 /* Shake Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B933451F1CDA46B500CB5F94 /* Build configuration list for PBXNativeTarget "Shake Login" */;
+			buildPhases = (
+				B93344F31CDA46B400CB5F94 /* Sources */,
+				B93344F41CDA46B400CB5F94 /* Frameworks */,
+				B93344F51CDA46B400CB5F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake Login";
+			productName = "Shake Login";
+			productReference = B93344F71CDA46B400CB5F94 /* Shake Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B933450A1CDA46B400CB5F94 /* Shake LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93345221CDA46B500CB5F94 /* Build configuration list for PBXNativeTarget "Shake LoginTests" */;
+			buildPhases = (
+				B93345071CDA46B400CB5F94 /* Sources */,
+				B93345081CDA46B400CB5F94 /* Frameworks */,
+				B93345091CDA46B400CB5F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B933450D1CDA46B400CB5F94 /* PBXTargetDependency */,
+			);
+			name = "Shake LoginTests";
+			productName = "Shake LoginTests";
+			productReference = B933450B1CDA46B400CB5F94 /* Shake LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B93345151CDA46B500CB5F94 /* Shake LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93345251CDA46B500CB5F94 /* Build configuration list for PBXNativeTarget "Shake LoginUITests" */;
+			buildPhases = (
+				B93345121CDA46B500CB5F94 /* Sources */,
+				B93345131CDA46B500CB5F94 /* Frameworks */,
+				B93345141CDA46B500CB5F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93345181CDA46B500CB5F94 /* PBXTargetDependency */,
+			);
+			name = "Shake LoginUITests";
+			productName = "Shake LoginUITests";
+			productReference = B93345161CDA46B500CB5F94 /* Shake LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B93344EF1CDA46B400CB5F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Agus Cahyono";
+				TargetAttributes = {
+					B93344F61CDA46B400CB5F94 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B933450A1CDA46B400CB5F94 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B93344F61CDA46B400CB5F94;
+					};
+					B93345151CDA46B500CB5F94 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B93344F61CDA46B400CB5F94;
+					};
+				};
+			};
+			buildConfigurationList = B93344F21CDA46B400CB5F94 /* Build configuration list for PBXProject "Shake Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B93344EE1CDA46B400CB5F94;
+			productRefGroup = B93344F81CDA46B400CB5F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B93344F61CDA46B400CB5F94 /* Shake Login */,
+				B933450A1CDA46B400CB5F94 /* Shake LoginTests */,
+				B93345151CDA46B500CB5F94 /* Shake LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B93344F51CDA46B400CB5F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93345051CDA46B400CB5F94 /* LaunchScreen.storyboard in Resources */,
+				B93345021CDA46B400CB5F94 /* Assets.xcassets in Resources */,
+				B93345001CDA46B400CB5F94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93345091CDA46B400CB5F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93345141CDA46B500CB5F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B93344F31CDA46B400CB5F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93344FD1CDA46B400CB5F94 /* ViewController.swift in Sources */,
+				B93344FB1CDA46B400CB5F94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93345071CDA46B400CB5F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93345101CDA46B400CB5F94 /* Shake_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93345121CDA46B500CB5F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B933451B1CDA46B500CB5F94 /* Shake_LoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B933450D1CDA46B400CB5F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93344F61CDA46B400CB5F94 /* Shake Login */;
+			targetProxy = B933450C1CDA46B400CB5F94 /* PBXContainerItemProxy */;
+		};
+		B93345181CDA46B500CB5F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93344F61CDA46B400CB5F94 /* Shake Login */;
+			targetProxy = B93345171CDA46B500CB5F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B93344FE1CDA46B400CB5F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93344FF1CDA46B400CB5F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B93345031CDA46B400CB5F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93345041CDA46B400CB5F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B933451D1CDA46B500CB5F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B933451E1CDA46B500CB5F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B93345201CDA46B500CB5F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Shake-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B93345211CDA46B500CB5F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Shake-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B93345231CDA46B500CB5F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shake LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Shake-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake Login.app/Shake Login";
+			};
+			name = Debug;
+		};
+		B93345241CDA46B500CB5F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shake LoginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Shake-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake Login.app/Shake Login";
+			};
+			name = Release;
+		};
+		B93345261CDA46B500CB5F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shake LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Shake-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shake Login";
+			};
+			name = Debug;
+		};
+		B93345271CDA46B500CB5F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shake LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.gaus.Shake-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Shake Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B93344F21CDA46B400CB5F94 /* Build configuration list for PBXProject "Shake Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B933451D1CDA46B500CB5F94 /* Debug */,
+				B933451E1CDA46B500CB5F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B933451F1CDA46B500CB5F94 /* Build configuration list for PBXNativeTarget "Shake Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93345201CDA46B500CB5F94 /* Debug */,
+				B93345211CDA46B500CB5F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B93345221CDA46B500CB5F94 /* Build configuration list for PBXNativeTarget "Shake LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93345231CDA46B500CB5F94 /* Debug */,
+				B93345241CDA46B500CB5F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B93345251CDA46B500CB5F94 /* Build configuration list for PBXNativeTarget "Shake LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93345261CDA46B500CB5F94 /* Debug */,
+				B93345271CDA46B500CB5F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B93344EF1CDA46B400CB5F94 /* Project object */;
+}
